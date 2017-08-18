@@ -32,6 +32,34 @@
 |User (zoo staff) views animals according to certain criteria such as age or diet|Search for all animals that are less than 2 years of age|List showing all animals that are less than 2 years of age|
 |User (zoo staff) edits the details of an existing animal profile|Edit profile for Ocelot specie and change its name to Princess (mistakenly registered as male)|Edit Ocelot's name from Prince to Princess and save changes to database|
 
+## What's Included
+
+```
+Epicodus-Zoo
+    ├── .gitignore
+    ├── bower.json
+    ├── gulpfile.js
+    ├── index.html
+    ├── package-lock.json
+    ├── package.json
+    ├── README.md
+    ├── systemjs.config.js
+    ├── tsconfig.js
+    ├── app
+    │    ├── animal-list.component.ts
+    │    ├── animal.model.ts
+    │    ├── app.component.ts
+    │    ├── app.module.ts
+    │    ├── completeness.pipe.ts
+    │    ├── edit-animal.component.ts
+    │    ├── main.ts
+    │    └── new-animal.component.ts
+    └── resources
+          ├── images
+          ├── js
+          └── styles
+```
+
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
