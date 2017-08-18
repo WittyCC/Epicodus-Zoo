@@ -81,12 +81,14 @@ You will need the following items properly installed on your device.
 
 ## Technologies Used
 
-* Node Package Manager
-* Bower
-* TypeScript
 * Angular 2
+* Atom
+* Bower
+* Google Chrome
+* Node Package Manager
+* TypeScript
 
-## Support and contact details
+## Support and Contact Details
 
 Please feel free to contact wcc1213@gmail.com if you have any questions, issues, concerns, comments or suggestions.
 
