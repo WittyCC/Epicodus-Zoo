@@ -31,3 +31,43 @@
 |User (zoo staff) views list of animals logged by him/her|Search for animals logged by user|List showing all animals logged by user|
 |User (zoo staff) views animals according to certain criteria such as age or diet|Search for all animals that are less than 2 years of age|List showing all animals that are less than 2 years of age|
 |User (zoo staff) edits the details of an existing animal profile|Edit profile for Ocelot specie and change its name to Princess (mistakenly registered as male)|Edit Ocelot's name from Prince to Princess and save changes to database|
+
+## Prerequisites
+
+You will need the following things properly installed on your computer.
+
+* [Atom](https://atom.io/)
+* [Node.js](https://nodejs.org/) (with NPM)
+* [TypeScript](https://www.typescriptlang.org/)
+* [Bower](https://bower.io/)
+* Web browser software application of your choice (e.g. Google Chrome, Mozilla Firefox, etc.)
+
+## Installation
+
+* `git clone https://github.com/wcchang1382/Epicodus-Zoo`
+* Navigate to the project folder.
+* `npm install`
+* `bower install`
+* `gulp build`
+* `gulp serve`
+
+## Technologies Used
+
+* Node Package Manager
+* Bower
+* TypeScript
+* Angular 2
+
+## Support and contact details
+
+Please feel free to contact wcc1213@gmail.com if you have any questions, issues, concerns, comments or suggestions.
+
+### License
+
+_Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:_
+
+_The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software._
+
+_THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE._
+
+Copyright (c) 2017 **_Witty Chang_**
