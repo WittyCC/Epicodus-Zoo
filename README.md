@@ -62,7 +62,7 @@ Epicodus-Zoo
 
 ## Prerequisites
 
-You will need the following things properly installed on your computer.
+You will need the following items properly installed on your device.
 
 * [Atom](https://atom.io/)
 * [Node.js](https://nodejs.org/) (with NPM)
