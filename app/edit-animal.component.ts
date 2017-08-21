@@ -6,32 +6,32 @@ import { Animal } from './animal.model';
   template: `
   <div>
     <div *ngIf="childSelectedAnimal">
-      <h3>Edit {{childSelectedAnimal.species}}'s Details</h3>
-      <label>Enter Animal Species:</label>
+      <h1>Edit {{childSelectedAnimal.species}}'s Details</h1>
+      <label>Enter the correct specie: </label>
       <input [(ngModel)]="childSelectedAnimal.species">
       <br>
-      <label>Enter Animal Name:</label>
+      <label>Enter its new name: </label>
       <input [(ngModel)]="childSelectedAnimal.name">
       <br>
-      <label>Enter Animal Age:</label>
+      <label>Enter the correct age: </label>
       <input [(ngModel)]="childSelectedAnimal.age">
       <br>
-      <label>Enter Animal Diet:</label>
+      <label>Is it a carnivore, herbivore, or omnivore? </label>
       <input [(ngModel)]="childSelectedAnimal.diet">
       <br>
-      <label>Enter Animal Location:</label>
+      <label>Where will it be staying in the zoo? </label>
       <input [(ngModel)]="childSelectedAnimal.location">
       <br>
-      <label>Enter Number of Caretakers:</label>
+      <label>How many caretakers does it really need? </label>
       <input [(ngModel)]="childSelectedAnimal.caretakers">
       <br>
-      <label>Enter Animal Sex:</label>
+      <label>Is it male or female? </label>
       <input [(ngModel)]="childSelectedAnimal.sex">
       <br>
-      <label>Enter One Item the Animal Likes:</label>
+      <label>Input something that this animal likes (for real): </label>
       <input [(ngModel)]="childSelectedAnimal.like">
       <br>
-      <label>Enter One Item the Animal Dislikes:</label>
+      <label>Input something that this animal dislikes (for real): </label>
       <input [(ngModel)]="childSelectedAnimal.dislike">
       <br>
       <button (click)="doneButtonClicked()">Save Changes</button>

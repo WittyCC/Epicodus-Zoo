@@ -5,12 +5,12 @@ import { FormsModule }  from '@angular/forms';
 import { AnimalListComponent }  from './animal-list.component';
 import { EditAnimalComponent } from './edit-animal.component';
 import { NewAnimalComponent } from './new-animal.component';
-import { CompletenessPipe } from './completeness.pipe';
+import { MaturityPipe } from './maturity.pipe';
 
 
 @NgModule({
   imports: [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, AnimalListComponent, EditAnimalComponent, NewAnimalComponent, CompletenessPipe],
+  declarations: [ AppComponent, AnimalListComponent, EditAnimalComponent, NewAnimalComponent, MaturityPipe],
   bootstrap:    [ AppComponent ]
 })
 

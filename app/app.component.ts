@@ -4,9 +4,9 @@ import { Animal } from './animal.model';
 @Component({
   selector: 'app-root',
   template: `
-  <div class="container" style="background-image:url('https://www.hdwallpapers.in/walls/owl_4k_5k-wide.jpg'); background-size: cover; color: white;">
+  <div class="container" style="background-image:url('https://www.hdwallpapers.in/walls/owl_4k_5k-wide.jpg'); background-attachment: fixed; background-repeat: no-repeat; background-size: cover; color: white;">
     <h1 style="text-align:center">EPICODUS ZOO</h1>
-    <h2>Current Registered Animals for {{month}}/{{day}}/{{year}}</h2>
+    <h1>Current Registered Animals for {{month}}/{{day}}/{{year}}</h1>
     <animal-list [childAnimalList]="fullList" (clickSender)="editAnimal($event)"></animal-list>
     <hr>
     <edit-animal [childSelectedAnimal]="selectedAnimal" (doneButtonClickedSender)="finishedEditing()"></edit-animal>
