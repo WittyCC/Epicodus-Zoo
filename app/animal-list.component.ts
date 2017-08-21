@@ -11,7 +11,7 @@ import { Animal } from './animal.model';
   </select>
 
   <ul>
-    <li *ngFor="let currentAnimal of childAnimalList | completeness:filterByCompleteness">Species: {{currentAnimal.species}} <br> Name: {{currentAnimal.name}} <br> Age: {{currentAnimal.age}} <br> Diet: {{currentAnimal.diet}} <br> Location: {{currentAnimal.location}} <br> Caretakers: {{currentAnimal.caretakers}} <br> Sex: {{currentAnimal.sex}} <br> Likes: {{currentAnimal.like}} <br> Dislikes: {{currentAnimal.dislike}} <br> <button (click)="editButtonHasBeenClicked(currentAnimal)">Edit!</button><br><br></li>
+    <li *ngFor="let currentAnimal of childAnimalList | completeness:filterByCompleteness">Species: {{currentAnimal.species}} <br> Name: {{currentAnimal.name}} <br> Age: {{currentAnimal.age}} <br> Diet: {{currentAnimal.diet}} <br> Location: {{currentAnimal.location}} <br> Caretakers: {{currentAnimal.caretakers}} <br> Sex: {{currentAnimal.sex}} <br> Likes: {{currentAnimal.like}} <br> Dislikes: {{currentAnimal.dislike}} <br> <button (click)="editButtonHasBeenClicked(currentAnimal)">Edit Details</button><br><br></li>
   </ul>
   `
   })
