@@ -50,7 +50,7 @@ Epicodus-Zoo
     │    ├── animal.model.ts
     │    ├── app.component.ts
     │    ├── app.module.ts
-    │    ├── completeness.pipe.ts
+    │    ├── maturity.pipe.ts
     │    ├── edit-animal.component.ts
     │    ├── main.ts
     │    └── new-animal.component.ts
