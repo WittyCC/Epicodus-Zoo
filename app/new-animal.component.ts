@@ -4,44 +4,55 @@ import { Animal } from './animal.model';
 @Component({
   selector: 'new-animal',
   template: `
-    <h1>New Animal</h1>
+  <div class="container">
+    <h1>Add New Animal to the Database</h1>
     <div>
-      <label>Enter Animal Species:</label>
+      <label>Enter animal specie: </label>
       <input #newSpecies>
     </div>
+    <br>
     <div>
-      <label>Enter Animal Name:</label>
+      <label>What is its name? </label>
       <input #newName>
     </div>
+    <br>
     <div>
-      <label>Enter Animal Age:</label>
+      <label>What is its approximate age? </label>
       <input #newAge>
     </div>
+    <br>
     <div>
-      <label>Enter Animal Diet:</label>
+      <label>How would you classify it based on what it eats? </label>
       <input #newDiet>
     </div>
+    <br>
     <div>
-      <label>Enter Animal Location:</label>
+      <label>Where is its new home in the zoo? </label>
       <input #newLocation>
     </div>
+    <br>
     <div>
-      <label>Enter Number of Caretakers:</label>
+      <label>How many caretakers does it need? </label>
       <input #newCaretakers>
     </div>
+    <br>
     <div>
-      <label>Enter Animal Sex:</label>
+      <label>What is its gender? </label>
       <input #newSex>
     </div>
+    <br>
     <div>
-      <label>Enter One Item the Animal Likes:</label>
+      <label>Input something that this animal likes: </label>
       <input #newLike>
     </div>
+    <br>
     <div>
-      <label>Enter One Item the Animal Dislikes:</label>
+      <label>Input something that this animal dislikes: </label>
       <input #newDislike>
-      <button (click)="submitForm(newSpecies.value, newName.value, newAge.value, newDiet.value, newLocation.value, newCaretakers.value, newSex.value, newLike.value, newDislike.value); newSpecies.value=''; newName.value=''; newAge.value=''; newDiet.value=''; newLocation.value=''; newCaretakers.value=''; newSex.value=''; newLike.value=''; newDislike.value='';">Add</button>
     </div>
+    <br>
+    <button (click)="submitForm(newSpecies.value, newName.value, newAge.value, newDiet.value, newLocation.value, newCaretakers.value, newSex.value, newLike.value, newDislike.value); newSpecies.value=''; newName.value=''; newAge.value=''; newDiet.value=''; newLocation.value=''; newCaretakers.value=''; newSex.value=''; newLike.value=''; newDislike.value='';">Register</button>
+  </div>
   `
 })
 
